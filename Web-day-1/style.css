@@ -1,0 +1,123 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+
+}
+body{
+    
+    animation-name: b;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+.a
+{
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    margin: 10px;
+    position: relative;
+    border-radius:50%;
+   
+}
+.a_1{
+    animation-name: ani;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+}
+
+
+.a_2{
+    animation-name: ani;
+    animation-duration: 2.5s;
+    animation-delay: 0.3s;
+    animation-iteration-count: infinite;
+}
+.a_3{
+    animation-name: ani;
+    animation-duration: 2.5s;
+    animation-delay: 0.6s;
+    animation-iteration-count: infinite;
+}
+.main {
+    display: flex;
+   
+    
+}
+.line {
+    width:300px;
+    height:40px;
+    background-color: rgb(238, 238, 238);
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    box-shadow: 5px 5px 5px rgb(87, 85, 85);
+}
+.m {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top:250px ;
+   
+}
+
+
+@keyframes b {
+ 
+    0%{
+      background-color: blueviolet;
+    }
+    
+    25%{
+background-color: darkcyan;
+    }
+
+    50%{
+background-color: darkblue;
+    }
+
+     75%{
+background-color: rgb(224, 83, 83);
+     }
+     100%{
+background-color: hotpink;
+     }
+    
+}
+
+@keyframes ani {
+   
+   0%{
+    top:0px;
+    
+   }
+   50%{
+    top:-120px;
+   }
+   100%{
+    
+    top:0px;
+
+}
+
+
+}
+
+.in {
+    background-color: rgb(238, 238, 238);
+    
+    border: none;
+    outline: none;
+    color: gray;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+
+}
